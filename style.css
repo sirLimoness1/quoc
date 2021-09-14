@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+
+
+body {
+	background-color: rgb(244, 234, 230);
+ 	padding-left: 100px;
+ 	padding-right: 100px;
+}
+
+h1 {
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 96px;
+	color: rgb(66, 151, 160)
+
+}
+
+
+h2 {
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 56px;
+}
+
+
+p {
+  	font-family: Montserrat;
+  	font-size: 30px;
+}
+
+.Simpson_title:hover{
+	color: rgb(254, 217, 15);
+}
+
+
+.Rick_title:hover{
+	color: rgb(182, 225, 242);
+}
+
+
+
+.Jake_title:hover{
+	color: rgb(251, 185, 34);
+}
+
+
+.Rick_quotes,
+.Jake_quotes, 
+.Simpson_quotes {
+	box-shadow: -6px -6px 16px #FFF8F5, 6px 6px 16px #E9DDD8;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	font-weight: 900;	
+	font-size: 50px;
+	font-family: Montserrat;
+	font-weight: 900;
+	font-size: 56px;
+
+
+}
+
+ nav {
+ 	font-weight: 900;	
+	font-family: Montserrat Black;
+	color: #E57F84;
+ }
+
+
+ .links-list{
+	display: flex;
+	padding-left: 0px;
+	
+ }
+
+ .links-list a {
+	display: inline-block;
+	text-align: center;
+    border: solid 3px #E57F84;
+    margin: 0px;  
+    padding: 10px;
+    color: #E57F84;
+ }
+
+  .links-list a:hover {
+  	color: white;
+  	background-color: #E57F84; 
+ }
+
+
+
